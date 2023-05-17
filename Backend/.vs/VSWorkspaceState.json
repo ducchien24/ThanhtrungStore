@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\JWTAuthentication",
+    "\\JWTAuthentication\\JWTAuthentication",
+    "\\JWTAuthentication\\JWTAuthentication\\Models"
+  ],
+  "SelectedNode": "\\JWTAuthentication\\JWTAuthentication\\Models\\UserModel.cs",
+  "PreviewInSolutionExplorer": false
+}

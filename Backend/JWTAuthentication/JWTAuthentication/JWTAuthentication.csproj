@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>a1c558d6-3188-4c20-a879-dd9248ac1958</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210225054509_Initial.cs" />
+    <Compile Remove="Migrations\20210225054509_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20210311064933_Initial2.cs" />
+    <Compile Remove="Migrations\20210311064933_Initial2.Designer.cs" />
+    <Compile Remove="Migrations\20210311071251_add_gender.cs" />
+    <Compile Remove="Migrations\20210311071251_add_gender.Designer.cs" />
+    <Compile Remove="Migrations\20210311071436_add_gender.cs" />
+    <Compile Remove="Migrations\20210311071436_add_gender.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.78" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Nancy" Version="2.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+
+</Project>
